@@ -39,7 +39,7 @@ def play(songs)
   songs.each_with_index do |songName, index|
     if choice == songName
       puts "Playing #{songName}"
-      elsif index+1 == choice
+      elsif (index+1).to_s == choice
       puts "Playing #{songName}"
     else
       puts "Invalid input, please try again"
