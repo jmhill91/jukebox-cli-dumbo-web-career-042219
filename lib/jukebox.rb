@@ -41,8 +41,7 @@ def play(songs)
       puts "Playing #{songName}"
       elsif index+1 = choice
       puts "Playing #{songName}"
-    end
-    else
+    elsif
       puts "Invalid input, please try again"
     end
   end
