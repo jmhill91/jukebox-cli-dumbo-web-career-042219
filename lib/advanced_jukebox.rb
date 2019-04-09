@@ -45,7 +45,9 @@ def play(my_songs)
   #get the file path of the song by looking it up in the my_songs hash
   puts "Please enter a song name or number:"
   choice= gets.chomp
-  if choice == my_songs.key 
+  if choice == my_songs.key
+    
+  elsif 
     
 end
 
