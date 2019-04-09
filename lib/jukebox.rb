@@ -27,4 +27,5 @@ def help
 - exit : exits this program"
 end 
 
-def 
+def list(songs)
+  
