@@ -48,7 +48,7 @@ def play(my_songs)
   if choice == my_songs.key
     
   elsif 
-    
+    puts "Invalid input, please try again" 
 end
 
 def exit_jukebox
